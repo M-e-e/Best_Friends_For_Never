@@ -1,0 +1,71 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "0f8cd8db-599c-40df-a5c9-afbe4bbaa0a6",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Button",
+                    "id": "d173308f-4419-4ccb-b7c9-333a969cbd0d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "6a74a4dd-2c42-4a93-a6ef-590d95a60f2e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Stop",
+                    "type": "Button",
+                    "id": "017684c8-7cb0-497f-9a48-682102dab486",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ef01e8f3-a388-4a07-9b6c-4600d21742e7",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "StickDeadzone(min=-0.99,max=0.99)",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d71ce473-e93d-4a27-b2be-220607e8734f",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78f27609-0c35-4675-84eb-d2a358747bd5",
+                    "path": "<XInputController>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Stop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

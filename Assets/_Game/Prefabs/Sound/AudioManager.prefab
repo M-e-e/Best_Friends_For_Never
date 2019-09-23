@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9013319373316615292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9013319373316615294}
+  - component: {fileID: 9013319373316615295}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9013319373316615294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9013319373316615292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9013319373316615295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9013319373316615292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89304e858966f524c8229d6ef5e4a387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: CloseDoor
+    clip: {fileID: 8300000, guid: b86da1f9d7f4f2b43ab9a8ce082f28b7, type: 3}
+    volume: 0.184
+    pitch: 1
+    loop: 0
+    randomized: 0
+    volumeMax: 0
+    pitchMax: 0
+    source: {fileID: 0}
+  - name: OpenDoor
+    clip: {fileID: 8300000, guid: 0811da668b012be409f0bc55f36bb931, type: 3}
+    volume: 0.133
+    pitch: 1
+    loop: 0
+    randomized: 0
+    volumeMax: 0
+    pitchMax: 0
+    source: {fileID: 0}
+  - name: Lever
+    clip: {fileID: 8300000, guid: 5db3f93ff67b02b4fbf40984aa381907, type: 3}
+    volume: 0.125
+    pitch: 1
+    loop: 0
+    randomized: 0
+    volumeMax: 0
+    pitchMax: 0
+    source: {fileID: 0}
+  - name: TimerTicks
+    clip: {fileID: 8300000, guid: edcd29de0ce069045914e56597248230, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    randomized: 0
+    volumeMax: 0
+    pitchMax: 0
+    source: {fileID: 0}
+  - name: BigBlock
+    clip: {fileID: 8300000, guid: 551b012408696864e83bcbedc7d73084, type: 3}
+    volume: 0.153
+    pitch: 1
+    loop: 0
+    randomized: 0
+    volumeMax: 0
+    pitchMax: 0
+    source: {fileID: 0}
+  - name: SmallBlock
+    clip: {fileID: 8300000, guid: 690c77fd79737ca49b6bbf0591c8bd7b, type: 3}
+    volume: 0.1
+    pitch: 1.5
+    loop: 0
+    randomized: 1
+    volumeMax: 0.15
+    pitchMax: 1.64
+    source: {fileID: 0}
+  - name: ScaryPlatform
+    clip: {fileID: 8300000, guid: 1fbfcd1ff39f75b4bbcc2c9be9f98ee9, type: 3}
+    volume: 0.05
+    pitch: 0.95
+    loop: 0
+    randomized: 0
+    volumeMax: 0.1
+    pitchMax: 1.05
+    source: {fileID: 0}
+  - name: MovingPlatform
+    clip: {fileID: 8300000, guid: d5f23f57a007cd845aec8dea079000c6, type: 3}
+    volume: 0.162
+    pitch: 1
+    loop: 0
+    randomized: 0
+    volumeMax: 0
+    pitchMax: 0
+    source: {fileID: 0}
+  - name: Potion
+    clip: {fileID: 8300000, guid: 1adb846d255a2214786d141378b8c568, type: 3}
+    volume: 0.105
+    pitch: 0.61
+    loop: 0
+    randomized: 0
+    volumeMax: 0
+    pitchMax: 0
+    source: {fileID: 0}
+  - name: Pressure
+    clip: {fileID: 8300000, guid: c628f89f0d6f3604b9e72bc5d61efd0d, type: 3}
+    volume: 0.07
+    pitch: 1
+    loop: 0
+    randomized: 1
+    volumeMax: 0.09
+    pitchMax: 0
+    source: {fileID: 0}
+  - name: Release
+    clip: {fileID: 8300000, guid: eb290744b5fd5814385d90cf97612250, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    randomized: 1
+    volumeMax: 0.09
+    pitchMax: 0
+    source: {fileID: 0}
+  - name: SpecialItem
+    clip: {fileID: 8300000, guid: 43f8a0b699efe6a4ebb3aea717f70c98, type: 3}
+    volume: 0.08
+    pitch: 1.4
+    loop: 0
+    randomized: 1
+    volumeMax: 0.09
+    pitchMax: 1.5
+    source: {fileID: 0}
+  - name: Teleport
+    clip: {fileID: 8300000, guid: befe069a16ff6aa40b345717d395e746, type: 3}
+    volume: 0.06
+    pitch: 0.83
+    loop: 0
+    randomized: 0
+    volumeMax: 0.932
+    pitchMax: 0.89
+    source: {fileID: 0}
+  - name: TurretShot
+    clip: {fileID: 8300000, guid: 5ca0055e648725e43af9aa6959272725, type: 3}
+    volume: 0.014
+    pitch: 1
+    loop: 0
+    randomized: 1
+    volumeMax: 0.023
+    pitchMax: 1.21
+    source: {fileID: 0}
+  - name: Portal
+    clip: {fileID: 8300000, guid: 9bcebc644ab033942b2d8f95d0360a97, type: 3}
+    volume: 0.05
+    pitch: 0.63
+    loop: 0
+    randomized: 1
+    volumeMax: 0.086
+    pitchMax: 0.66
+    source: {fileID: 0}
+  - name: PlayerGitGroud
+    clip: {fileID: 8300000, guid: 2751f2cc9c349e7419b4af0cf99ac55c, type: 3}
+    volume: 0.03
+    pitch: 0.23
+    loop: 0
+    randomized: 1
+    volumeMax: 0.05
+    pitchMax: 0.41
+    source: {fileID: 0}
+  - name: PlayerJump
+    clip: {fileID: 8300000, guid: 2751f2cc9c349e7419b4af0cf99ac55c, type: 3}
+    volume: 0.03
+    pitch: 0.09
+    loop: 0
+    randomized: 1
+    volumeMax: 0.05
+    pitchMax: 0.15
+    source: {fileID: 0}
+  - name: PlayerTouch
+    clip: {fileID: 8300000, guid: 2751f2cc9c349e7419b4af0cf99ac55c, type: 3}
+    volume: 0.02
+    pitch: 0.95
+    loop: 0
+    randomized: 1
+    volumeMax: 0.04
+    pitchMax: 1.21
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: f80c3251fa867a948adf1e85e9dbb3ac, type: 3}
+    volume: 0.124
+    pitch: 1
+    loop: 0
+    randomized: 0
+    volumeMax: 0
+    pitchMax: 0
+    source: {fileID: 0}

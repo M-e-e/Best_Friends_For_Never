@@ -1,0 +1,959 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="OnTouchVoices_data" version="1.3.0" audacityversion="2.1.1" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="172.2656250000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="30720">
+				<waveblock start="0">
+					<simpleblockfile filename="e000592b.au" len="30720" min="-0.00115" max="0.001126" rms="0.000185"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.696575963719" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="0.69659864">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="11882785">
+				<waveblock start="0">
+					<simpleblockfile filename="e000562a.au" len="231424" min="-0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="231424">
+					<simpleblockfile filename="e000435f.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="493568">
+					<simpleblockfile filename="e00040eb.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="755712">
+					<simpleblockfile filename="e000438a.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="1017856">
+					<simpleblockfile filename="e000408f.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="1280000">
+					<simpleblockfile filename="e00046d0.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="1542144">
+					<simpleblockfile filename="e0004898.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="1804288">
+					<simpleblockfile filename="e0004a14.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="2066432">
+					<simpleblockfile filename="e000484d.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="2328576">
+					<simpleblockfile filename="e0004812.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="2590720">
+					<simpleblockfile filename="e0004a46.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="2852864">
+					<simpleblockfile filename="e00046b4.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="3115008">
+					<simpleblockfile filename="e0004d7d.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="3377152">
+					<simpleblockfile filename="e0004992.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="3639296">
+					<simpleblockfile filename="e0004f22.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="3901440">
+					<simpleblockfile filename="e0004c29.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="4163584">
+					<simpleblockfile filename="e00047f4.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="4425728">
+					<simpleblockfile filename="e0004fdc.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="4687872">
+					<simpleblockfile filename="e00041e2.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="4950016">
+					<simpleblockfile filename="e0004f79.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="5212160">
+					<simpleblockfile filename="e00042ba.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="5474304">
+					<simpleblockfile filename="e000402e.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="5736448">
+					<simpleblockfile filename="e00043c1.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="5998592">
+					<simpleblockfile filename="e0004171.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="6260736">
+					<simpleblockfile filename="e0004311.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="6522880">
+					<simpleblockfile filename="e0004b23.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="6785024">
+					<simpleblockfile filename="e0004d03.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="7047168">
+					<simpleblockfile filename="e0004f5e.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="7309312">
+					<simpleblockfile filename="e00040ed.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="7571456">
+					<simpleblockfile filename="e00048e4.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="7833600">
+					<simpleblockfile filename="e00044bb.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="8095744">
+					<simpleblockfile filename="e0004474.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="8357888">
+					<simpleblockfile filename="e0004602.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="8620032">
+					<simpleblockfile filename="e0004528.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="8882176">
+					<simpleblockfile filename="e0004d52.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="9144320">
+					<simpleblockfile filename="e000432f.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="9406464">
+					<simpleblockfile filename="e000425c.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="9668608">
+					<simpleblockfile filename="e000468c.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="9930752">
+					<simpleblockfile filename="e0004d7f.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="10192896">
+					<simpleblockfile filename="e0004c85.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="10455040">
+					<simpleblockfile filename="e0004aad.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="10717184">
+					<simpleblockfile filename="e0004135.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="10979328">
+					<simpleblockfile filename="e0004a6f.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="11241472">
+					<simpleblockfile filename="e0005c1d.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="11503616">
+					<simpleblockfile filename="e00051be.au" len="262144" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="11765760">
+					<simpleblockfile filename="e00051fb.au" len="117025" min="-0.0" max="-0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="30720">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005542.au" len="30720" min="-0.87404" max="0.648393" rms="0.091716"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.696575963719" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="0.69659864">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="11882785">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005a77.au" len="231424" min="-0.000267" max="0.000219" rms="0.000004"/>
+				</waveblock>
+				<waveblock start="231424">
+					<simpleblockfile filename="e0004f57.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="493568">
+					<simpleblockfile filename="e00046d3.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="755712">
+					<simpleblockfile filename="e000491c.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="1017856">
+					<simpleblockfile filename="e0004d0a.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="1280000">
+					<simpleblockfile filename="e00040d2.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="1542144">
+					<simpleblockfile filename="e0004c7f.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="1804288">
+					<simpleblockfile filename="e000457c.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="2066432">
+					<simpleblockfile filename="e0004f43.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="2328576">
+					<simpleblockfile filename="e00048ef.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="2590720">
+					<simpleblockfile filename="e000472f.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="2852864">
+					<simpleblockfile filename="e00044a4.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="3115008">
+					<simpleblockfile filename="e00042a9.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="3377152">
+					<simpleblockfile filename="e0004327.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="3639296">
+					<simpleblockfile filename="e00040a1.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="3901440">
+					<simpleblockfile filename="e0004981.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="4163584">
+					<simpleblockfile filename="e00047b7.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="4425728">
+					<simpleblockfile filename="e0004ec3.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="4687872">
+					<simpleblockfile filename="e0004450.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="4950016">
+					<simpleblockfile filename="e0004721.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="5212160">
+					<simpleblockfile filename="e0004431.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="5474304">
+					<simpleblockfile filename="e00047ae.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="5736448">
+					<simpleblockfile filename="e0004a2b.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="5998592">
+					<simpleblockfile filename="e00044c9.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="6260736">
+					<simpleblockfile filename="e0004fcf.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="6522880">
+					<simpleblockfile filename="e00048b0.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="6785024">
+					<simpleblockfile filename="e0004b62.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="7047168">
+					<simpleblockfile filename="e0004b4a.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="7309312">
+					<simpleblockfile filename="e0004d0f.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="7571456">
+					<simpleblockfile filename="e0004ec8.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="7833600">
+					<simpleblockfile filename="e00040d5.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="8095744">
+					<simpleblockfile filename="e00041bd.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="8357888">
+					<simpleblockfile filename="e000424b.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="8620032">
+					<simpleblockfile filename="e0004367.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="8882176">
+					<simpleblockfile filename="e0004ac3.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="9144320">
+					<simpleblockfile filename="e000445d.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="9406464">
+					<simpleblockfile filename="e00045ad.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="9668608">
+					<simpleblockfile filename="e0004f51.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="9930752">
+					<simpleblockfile filename="e00046d1.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="10192896">
+					<simpleblockfile filename="e00048ed.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="10455040">
+					<simpleblockfile filename="e0004962.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="10717184">
+					<simpleblockfile filename="e0004c28.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="10979328">
+					<simpleblockfile filename="e0004eb6.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="11241472">
+					<simpleblockfile filename="e0005396.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="11503616">
+					<simpleblockfile filename="e0005979.au" len="262144" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+				<waveblock start="11765760">
+					<simpleblockfile filename="e0005332.au" len="117025" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="38365">
+				<waveblock start="0">
+					<simpleblockfile filename="e0004547.au" len="38365" min="-0.002173" max="0.001466" rms="0.000357"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="38365">
+				<waveblock start="0">
+					<simpleblockfile filename="e00049e1.au" len="38365" min="-0.782873" max="0.851236" rms="0.109932"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="76758">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005605.au" len="76758" min="-0.0079" max="0.006838" rms="0.001217"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="76758">
+				<waveblock start="0">
+					<simpleblockfile filename="e00053c0.au" len="76758" min="-0.890465" max="0.731443" rms="0.159769"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="42204">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005a00.au" len="42204" min="-0.002299" max="0.002551" rms="0.000466"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="42204">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005514.au" len="42204" min="-0.7584" max="0.884835" rms="0.089408"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="145867">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005b39.au" len="145867" min="-0.002222" max="0.0029" rms="0.000446"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="145867">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005e4e.au" len="145867" min="-0.849904" max="0.736231" rms="0.100709"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="138189">
+				<waveblock start="0">
+					<simpleblockfile filename="e000515f.au" len="138189" min="-0.002308" max="0.001866" rms="0.00036"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="138189">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005bd2.au" len="138189" min="-0.837427" max="0.882093" rms="0.071815"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="61401">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005ff1.au" len="61401" min="-0.001087" max="0.001229" rms="0.000249"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="61401">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005f93.au" len="61401" min="-0.884303" max="0.640231" rms="0.086374"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="46043">
+				<waveblock start="0">
+					<simpleblockfile filename="e00052f8.au" len="46043" min="-0.001388" max="0.001452" rms="0.000261"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="46043">
+				<waveblock start="0">
+					<simpleblockfile filename="e000575e.au" len="46043" min="-0.878479" max="0.812458" rms="0.103742"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="57562">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005d53.au" len="57562" min="-0.002408" max="0.00295" rms="0.000554"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="57562">
+				<waveblock start="0">
+					<simpleblockfile filename="e00054a5.au" len="57562" min="-0.867562" max="0.614338" rms="0.150462"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="80598">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005c98.au" len="80598" min="-0.005231" max="0.005217" rms="0.00092"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="80598">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005ed8.au" len="80598" min="-0.864442" max="0.746932" rms="0.127013"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="57562">
+				<waveblock start="0">
+					<simpleblockfile filename="e00056a4.au" len="57562" min="-0.003446" max="0.005031" rms="0.000964"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="57562">
+				<waveblock start="0">
+					<simpleblockfile filename="e00059ee.au" len="57562" min="-0.887165" max="0.803253" rms="0.154112"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="61402">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005974.au" len="61402" min="-0.001271" max="0.00125" rms="0.000288"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="61402">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005c87.au" len="61402" min="-0.886517" max="0.817761" rms="0.09297"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="30686">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005658.au" len="30686" min="-0.002144" max="0.001316" rms="0.000301"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="30686">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005d69.au" len="30686" min="-0.783123" max="0.890767" rms="0.115259"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="44955">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005e8b.au" len="44955" min="-0.000981" max="0.001052" rms="0.00019"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="1.019365079365" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="1.01938776">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="20285">
+				<waveblock start="0">
+					<simpleblockfile filename="e000562b.au" len="20285" min="-0.000912" max="0.000945" rms="0.000116"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="44955">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005595.au" len="44955" min="-0.881302" max="0.595418" rms="0.127511"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="1.019365079365" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="1.01938776">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="20285">
+				<waveblock start="0">
+					<simpleblockfile filename="e00059cd.au" len="20285" min="-0.553664" max="0.448782" rms="0.03944"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="34526">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005723.au" len="34526" min="-0.000798" max="0.000669" rms="0.000104"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="34526">
+				<waveblock start="0">
+					<simpleblockfile filename="e000589b.au" len="34526" min="-0.886555" max="0.682749" rms="0.229445"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="46044">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005626.au" len="46044" min="-0.001123" max="0.001134" rms="0.000216"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="46044">
+				<waveblock start="0">
+					<simpleblockfile filename="e000575d.au" len="46044" min="-0.883333" max="0.672662" rms="0.13142"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="46044">
+				<waveblock start="0">
+					<simpleblockfile filename="e000554a.au" len="46044" min="-0.001273" max="0.001135" rms="0.000264"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="46044">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005ed6.au" len="46044" min="-0.823251" max="0.889896" rms="0.081188"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="65435">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005125.au" len="65435" min="-0.000697" max="0.000697" rms="0.000154"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="1.483764172336" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="1.48378685">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="3645">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005983.au" len="3645" min="-0.000525" max="0.000521" rms="0.000036"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="65435">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005d8f.au" len="65435" min="-0.881995" max="0.848215" rms="0.17024"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="1.483764172336" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="1.48378685">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="3645">
+				<waveblock start="0">
+					<simpleblockfile filename="e00057d4.au" len="3645" min="-0.09914" max="0.06548" rms="0.008509"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="99739">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005109.au" len="99739" min="-0.00083" max="0.0011" rms="0.000183"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="2.261632653061" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="2.26165533">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="34610">
+				<waveblock start="0">
+					<simpleblockfile filename="e00050d1.au" len="34610" min="-0.000635" max="0.000648" rms="0.000118"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="99739">
+				<waveblock start="0">
+					<simpleblockfile filename="e00056ba.au" len="99739" min="-0.870785" max="0.796381" rms="0.100947"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="2.261632653061" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="2.26165533">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="34610">
+				<waveblock start="0">
+					<simpleblockfile filename="e00059d5.au" len="34610" min="-0.137934" max="0.180741" rms="0.016074"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="46044">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005ec3.au" len="46044" min="-0.00049" max="0.000544" rms="0.000096"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="46044">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005f52.au" len="46044" min="-0.849468" max="0.814175" rms="0.112443"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="76759">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005088.au" len="76759" min="-0.000623" max="0.00061" rms="0.000112"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="76759">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005f2b.au" len="76759" min="-0.67301" max="0.750537" rms="0.089737"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="61401">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005959.au" len="61401" min="-0.000549" max="0.000534" rms="0.000118"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="61401">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005c2e.au" len="61401" min="-0.662992" max="0.812968" rms="0.098131"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="94006">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005b99.au" len="94006" min="-0.00084" max="0.000841" rms="0.000138"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="2.131632653061" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="2.13165533">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="9628">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005a40.au" len="9628" min="-0.000594" max="0.000633" rms="0.000069"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="94006">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005cc7.au" len="94006" min="-0.694833" max="0.880317" rms="0.075303"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="2.131632653061" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="2.13165533">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="9628">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005e29.au" len="9628" min="-0.055116" max="0.059753" rms="0.003066"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="65240">
+				<waveblock start="0">
+					<simpleblockfile filename="e00051b3.au" len="65240" min="-0.001355" max="0.001132" rms="0.000264"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="65240">
+				<waveblock start="0">
+					<simpleblockfile filename="e000548a.au" len="65240" min="-0.86396" max="0.63544" rms="0.081386"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="122779">
+				<waveblock start="0">
+					<simpleblockfile filename="e000515a.au" len="122779" min="-0.001006" max="0.000777" rms="0.000177"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="2.784081632653" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="2.78410431">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="3891">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005c26.au" len="3891" min="-0.000501" max="0.000467" rms="0.000036"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="122779">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005316.au" len="122779" min="-0.662313" max="0.877987" rms="0.091356"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="2.784081632653" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+		<waveclip offset="2.78410431">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="3891">
+				<waveblock start="0">
+					<simpleblockfile filename="e000546a.au" len="3891" min="-0.002623" max="0.002796" rms="0.000213"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="0.000000000000" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="80598">
+				<waveblock start="0">
+					<simpleblockfile filename="e00055d9.au" len="80598" min="-0.000903" max="0.001034" rms="0.000173"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="80598">
+				<waveblock start="0">
+					<simpleblockfile filename="e0005ae2.au" len="80598" min="-0.865273" max="0.884387" rms="0.099672"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="0" linked="1" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="42204">
+				<waveblock start="0">
+					<simpleblockfile filename="e000562f.au" len="42204" min="-0.000583" max="0.000615" rms="0.000113"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Tonspur" channel="1" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="42204">
+				<waveblock start="0">
+					<simpleblockfile filename="e000584f.au" len="42204" min="-0.873567" max="0.72203" rms="0.110664"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

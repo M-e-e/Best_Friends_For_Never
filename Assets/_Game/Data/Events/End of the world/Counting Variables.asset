@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adbb5765bcc14a047a488cf351a8e126, type: 3}
+  m_Name: Counting Variables
+  m_EditorClassIdentifier: 
+  p1Deaths: {fileID: 11400000, guid: ce901c3b08fedd94aafc1f2914b6a7fb, type: 2}
+  p2Deaths: {fileID: 11400000, guid: 7b578f30caa128841b3d04f745b1493d, type: 2}
+  menuHasBeenLoaded: {fileID: 11400000, guid: 4032cf54e5376c241bc6860e23a961c0, type: 2}

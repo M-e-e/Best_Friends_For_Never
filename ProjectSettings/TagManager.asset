@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SelLevelGrid
+  - SelLevelBtn
+  - SizePickUp
+  - FireDirection
+  - Quote
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Ground
+  - Decorations
+  - Activators
+  - Pickup
+  - Spikes
+  - LevelGoal
+  - Boxes
+  - SpikesCollision
+  - Bullets
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3839568175
+    locked: 0
+  - name: Player
+    uniqueID: 23767613
+    locked: 0
+  - name: "Vorh\xE4nge"
+    uniqueID: 3722041949
+    locked: 0
+  - name: Spikes
+    uniqueID: 1367254929
+    locked: 0
+  - name: Activators
+    uniqueID: 3609458735
+    locked: 0
+  - name: Ground
+    uniqueID: 1929915093
+    locked: 0
+  - name: Decorations
+    uniqueID: 3339394925
+    locked: 0
+  - name: LevelGoal
+    uniqueID: 1908674037
+    locked: 0
