@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -131,6 +131,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Working Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979424224205209625, guid: 980e132f14f63894baf3700533737497,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1979424224205209627, guid: 980e132f14f63894baf3700533737497,
         type: 3}
@@ -544,6 +549,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1137017617915017827, guid: 195835b83616a6f4ab298b9684af5727,
+        type: 3}
+      propertyPath: _tags.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1137017617915017825, guid: 195835b83616a6f4ab298b9684af5727,
         type: 3}
       propertyPath: TagPlayer2
@@ -556,11 +566,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 674df06fa0b942d49871851d43cf713c,
         type: 2}
-    - target: {fileID: 1137017617915017827, guid: 195835b83616a6f4ab298b9684af5727,
-        type: 3}
-      propertyPath: _tags.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 2668928506298788669, guid: 195835b83616a6f4ab298b9684af5727,
         type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
