@@ -29,8 +29,9 @@ public class PressurePlate : MonoBehaviour
 		}
 	}
 
-	private void OnCollisionStay(Collision other)
+	private void OnTriggerStay2D(Collider2D other)
 	{
+
 		if (!pressured)
 		{
 			Pressure.Invoke();
