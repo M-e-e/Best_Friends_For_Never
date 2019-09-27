@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 000000003daa6a012f29dbe45ddad9ddd52a08736d1f0bc791a77e51f50dc471
+  m_ApplyToSortingLayers: 000000002f29dbe43daa6a015ddad9dd91a77e512ff823d7d52a08736d1f0bc7f50dc471
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -314,6 +314,7 @@ MonoBehaviour:
   horizontalMovement: {fileID: 11400000, guid: 81f5d9658bd953141a305c9bde38535e, type: 2}
   jumpAxis: {fileID: 11400000, guid: 2a95c1a191cd28d41b7a194bfc11d82d, type: 2}
   coyoteJump: {fileID: 11400000, guid: dbfc3ea6973150240b4a655acbdab989, type: 2}
+  drag: {fileID: 0}
   downForce: {fileID: 11400000, guid: 3edb93f0b4fa6ea48ae54489f5420f4e, type: 2}
   speed: {fileID: 11400000, guid: 2e58cc770bff0024ea368943f7954629, type: 2}
   airSpeed: {fileID: 11400000, guid: 17f03ceacab5bc2448de66bd42b27e02, type: 2}
@@ -367,6 +368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tags:
   - {fileID: 11400000, guid: a69d10ef5237b1c4087f87965c659df6, type: 2}
+  - {fileID: 0}
 --- !u!114 &3084560205364937137
 MonoBehaviour:
   m_ObjectHideFlags: 0
