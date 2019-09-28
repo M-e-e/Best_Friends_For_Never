@@ -8,11 +8,13 @@ using Button = UnityEngine.UI.Button;
 public class ButtonSelect : MonoBehaviour
 {
 	public UnityEngine.UI.Button[] btn ;
+	public UnityEngine.UI.Button firstbtn;
 	GameObject myEventSystem;
 
 	private void Awake()
 	{
 		myEventSystem = GameObject.Find("EventSystem");
+		myEventSystem.GetComponent<UnityEngine.EventSystems.EventSystem>().SetSelectedGameObject(firstbtn.gameObject);
 	}
 
 	public void Select(Button btn)
