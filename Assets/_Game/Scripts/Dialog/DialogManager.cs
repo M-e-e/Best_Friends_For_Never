@@ -39,7 +39,8 @@ public class DialogManager : MonoBehaviour
 
 	private Animator _animator;
 
-	private float TimeStamp = 0;
+	//private float TimeStamp = 0;
+	private bool dialogFirable;
 
 	enum PlayerTurns
 	{
@@ -52,7 +53,7 @@ public class DialogManager : MonoBehaviour
 	// Start is called before the first frame update
     void Start()
     {
-
+	    dialogFirable = true;
 	    DeathDialogStatus.Value = 0;
 
 		ChangeTurn();
@@ -69,17 +70,16 @@ public class DialogManager : MonoBehaviour
     void ChangeTurn()
     {
 	    CurrentPlayer = (Random.Range(0, 2) == 0) ? PlayerTurns.Player1 : PlayerTurns.Player2;
-	    TimeStamp = 0;
+	    //TimeStamp = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-	    TimeStamp += Time.deltaTime;
+	    //TimeStamp += Time.deltaTime;
 
 
-
-	    if (IsTouching1.Value && IsTouching2.Value)
+	    if (IsTouching1.Value && IsTouching2.Value && dialogFirable)
 	    {
 
 		    FireDialog();
@@ -88,8 +88,8 @@ public class DialogManager : MonoBehaviour
 
     public void FireDialog()
     {
-	    if (TimeStamp > ActivateDialogAfter.Value)
-	    {
+	    //if (TimeStamp > ActivateDialogAfter.Value)
+	    //{
 		    Debug.Log("TouchDialog");
 		    switch (CurrentPlayer)
 		    {
@@ -97,6 +97,7 @@ public class DialogManager : MonoBehaviour
 
 						Dialog(Player1TouchDialog[Random.Range(0, Player1TouchDialog.Length)], "Player1Talking", "Player1Stop");
 					    ChangeTurn();
+						StartCoroutine(resetFirable(ActivateDialogAfter.Value));
 
 				    break;
 
@@ -104,10 +105,12 @@ public class DialogManager : MonoBehaviour
 
 						Dialog(Player2TouchDialog[Random.Range(0, Player2TouchDialog.Length)], "Player2Talking", "Player2Stop");
 					    ChangeTurn();
+						StartCoroutine(resetFirable(ActivateDialogAfter.Value));
+
 
 				    break;
 		    }
-	    }
+	   // }
     }
 
     void Dialog(DialogObject dialogObject, String startTrigger, String stopTrigger)
@@ -117,6 +120,13 @@ public class DialogManager : MonoBehaviour
 
     }
 
+    IEnumerator resetFirable(float delay)
+    {
+	    dialogFirable = false;
+	    yield return new WaitForSeconds(delay);
+	    dialogFirable = true;
+
+    }
     IEnumerator DialogCoroutine(DialogObject dialogObject, String startTrigger, String stopTrigger)
     {
 	    //yield return new WaitForSeconds(1);
@@ -142,18 +152,21 @@ public class DialogManager : MonoBehaviour
 
     public void DeathDialog(int status)
     {
+	    if (!dialogFirable) return;
 	    Debug.Log("DeathDialog" + status);
 	    switch (status)
 	    {
 		    case 2:
 
 			    Dialog(Player1DeathDialog[Random.Range(0, Player1DeathDialog.Length)], "Player1Talking", "Player1Stop");
+			    StartCoroutine(resetFirable(ActivateDialogAfter.Value/2));
 
 			    break;
 
 		    case 1:
 
 			    Dialog(Player2DeathDialog[Random.Range(0, Player2DeathDialog.Length)], "Player2Talking", "Player2Stop");
+			    StartCoroutine(resetFirable(ActivateDialogAfter.Value/2));
 
 			    break;
 	    }
