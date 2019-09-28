@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadEndLevelScreen : MonoBehaviour
 {
+
 	public void Load()
 	{
 		SceneManager.LoadScene(1, LoadSceneMode.Additive	);
