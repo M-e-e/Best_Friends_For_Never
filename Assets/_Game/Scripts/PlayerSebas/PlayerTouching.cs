@@ -56,7 +56,7 @@ public class PlayerTouching : MonoBehaviour
 		BlinkingSequencePlayer?.Kill();
 
 		GetComponentInChildren<SpriteRenderer>()
-			.DOFade(1, .1f);
+			.DOColor(Color.white, .1f);
 	}
 
 	private void Update()
@@ -77,7 +77,7 @@ public class PlayerTouching : MonoBehaviour
 
 			BlinkingSequencePlayer = DOTween.Sequence();
 			BlinkingSequencePlayer.Append(GetComponentInChildren<SpriteRenderer>()
-				.DOFade(.1f, TimeBeforeDeath.Value - StartBlinkingIn.Value).SetEase(Ease.InOutFlash, 15, -1));
+				.DOColor(Color.red, TimeBeforeDeath.Value - StartBlinkingIn.Value).SetEase(Ease.InOutFlash, 15, -1));
 		}
 	}
 
@@ -92,7 +92,7 @@ public class PlayerTouching : MonoBehaviour
 			    IsBlinking = false;
 
 			    GetComponentInChildren<SpriteRenderer>()
-				    .DOFade(1, .1f);
+				    .DOColor(Color.white, .1f);
 
 			    break;
 		    }
@@ -124,7 +124,7 @@ public class PlayerTouching : MonoBehaviour
 				IsBlinking = false;
 
 				GetComponentInChildren<SpriteRenderer>()
-					.DOFade(1, .1f);
+					.DOColor(Color.white, .1f);
 
 				break;
 			}
