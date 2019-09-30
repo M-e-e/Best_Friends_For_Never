@@ -12,7 +12,7 @@ public class SizeDebuff : DeBuff
 	public override void Apply(GameObject Target)
 	{
 		//Debug.Log("scaling down");
-		Target.transform.localScale=new Vector3(debuffSize.Value,debuffSize.Value,Target.transform.localScale.z) ;
-		Target.GetComponent<Rigidbody2D>().drag = debuffDrag.Value;
+		Target.transform.localScale=new Vector3(debuffSize.Value,debuffSize.Value,debuffSize.Value) ;
+		//Target.GetComponent<Rigidbody2D>().drag = debuffDrag.Value;
 	}
 }
