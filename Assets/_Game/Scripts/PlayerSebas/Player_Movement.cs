@@ -100,11 +100,14 @@ public class Player_Movement : MonoBehaviour
 	void SetGrounded()
 	{
 		bool tempGrounded = false;
-		RaycastHit2D[] hit= new RaycastHit2D[2];
+		RaycastHit2D[] hit= new RaycastHit2D[3];
 		hit[0] = Physics2D.Raycast(transform.position+new Vector3(0.35f*this.transform.localScale.y,0,0)+new Vector3(0.03f*this.transform.localScale.y,0,0) , -Vector2.up, (0.4f*this.transform.localScale.y)+0.1f);
 		hit[1] = Physics2D.Raycast(transform.position-new Vector3(0.35f*this.transform.localScale.y,0,0)+new Vector3(0.03f*this.transform.localScale.y,0,0), -Vector2.up, (0.4f*this.transform.localScale.y)+0.1f);
+		hit[2] = Physics2D.Raycast(transform.position , -Vector2.up, (0.4f*this.transform.localScale.y)+0.1f);
+
 		Debug.DrawRay(transform.position+new Vector3(0.35f*this.transform.localScale.y,0,0)+new Vector3(0.03f*this.transform.localScale.y,0,0),Vector2.down*((0.4f*this.transform.localScale.y)+0.1f), Color.red);
 		Debug.DrawRay(transform.position-new Vector3(0.35f*this.transform.localScale.y,0,0)+new Vector3(0.03f*this.transform.localScale.y,0,0),Vector2.down*((0.4f*this.transform.localScale.y)+0.1f), Color.red);
+		Debug.DrawRay(transform.position, Vector2.down*((0.4f*this.transform.localScale.y)+0.1f), Color.red);
 		//if (!hit.collider.gameObject.CompareTag(this.gameObject.tag))
 		foreach (RaycastHit2D h in hit)
 		{
