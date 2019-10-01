@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 8614171064719550910}
   - component: {fileID: 414725474638597084}
   - component: {fileID: 4641984784149214760}
-  - component: {fileID: 8873701775023098290}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -53,7 +52,18 @@ MonoBehaviour:
   Event: {fileID: 11400000, guid: e9586f58878445b4c98618aaeee80c67, type: 2}
   UnityEventResponse:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4641984784149214760}
+        m_MethodName: Vibrate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   GameActionResponses: []
 --- !u!114 &3337691057141475184
 MonoBehaviour:
@@ -169,18 +179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21952804afb78654fbc3f020e326eab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8873701775023098290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4594634929475243472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2fc1f65b8f43f34f97d5b2a257b905a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7049748456825307160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -188,6 +186,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1232958144072125810}
     m_Modifications:
+    - target: {fileID: 5274999794457739409, guid: 03773ce588155b044a2fd56587f94c91,
+        type: 3}
+      propertyPath: m_Name
+      value: InputManager
+      objectReference: {fileID: 0}
     - target: {fileID: 5274999794457739417, guid: 03773ce588155b044a2fd56587f94c91,
         type: 3}
       propertyPath: movement1
@@ -302,11 +305,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5274999794457739409, guid: 03773ce588155b044a2fd56587f94c91,
-        type: 3}
-      propertyPath: m_Name
-      value: InputManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03773ce588155b044a2fd56587f94c91, type: 3}
