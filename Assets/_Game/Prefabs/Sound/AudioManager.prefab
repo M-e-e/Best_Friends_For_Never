@@ -46,8 +46,8 @@ MonoBehaviour:
   sounds:
   - name: CloseDoor
     clip: {fileID: 8300000, guid: b86da1f9d7f4f2b43ab9a8ce082f28b7, type: 3}
-    volume: 0.184
-    pitch: 1
+    volume: 0.087
+    pitch: 0.59
     loop: 0
     randomized: 0
     volumeMax: 0
@@ -55,8 +55,8 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: OpenDoor
     clip: {fileID: 8300000, guid: 0811da668b012be409f0bc55f36bb931, type: 3}
-    volume: 0.133
-    pitch: 1
+    volume: 0.055
+    pitch: 0.59
     loop: 0
     randomized: 0
     volumeMax: 0
