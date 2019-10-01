@@ -27,8 +27,8 @@ public class LightCircle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-	    _light.intensity = Mathf.Max(((TimeBeforeDeath.Value - TimeSinceTouch.Value) / TimeBeforeDeath.Value  / 1.5f),0.2f);
-
+	    _light.intensity = Mathf.Min(0.55f,Mathf.Max(((TimeBeforeDeath.Value - TimeSinceTouch.Value) / TimeBeforeDeath.Value  / 1.5f),0.2f));
+		Debug.Log(_light.intensity);
 
 	    float LightRadius = (DistanceBeforeDeath.Value - CurrentPlayerDistance.Value) / DistanceBeforeDeath.Value * (MaxRadius.Value + LightRadiusModifier);
 	    if (LightRadius > MinRadius.Value)
