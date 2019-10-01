@@ -56,7 +56,6 @@ public class Disappearing_Platform : MonoBehaviour
 		{			Debug.Log("triggert");
 			currentState=State.Loop;
 			StartCoroutine(FadeCoroutine());
-			Debug.Log("currentstate:"+currentState);
 			return;
 		}
 		if (currentState != State.Static) return;
@@ -76,7 +75,7 @@ public class Disappearing_Platform : MonoBehaviour
 	IEnumerator FadeCoroutine()
 	{
 
-		transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, durationFadeOut);
+		transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(0, durationFadeOut).SetEase(Ease.InExpo);
 
 		yield return new WaitForSeconds(durationFadeOut);
 
@@ -84,9 +83,11 @@ public class Disappearing_Platform : MonoBehaviour
 
 		yield return new WaitForSeconds(fadeInDelay);
 
-		transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(1, durationFadeIn);
+		transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(1, durationFadeIn).SetEase(Ease.InQuad);
+
 
 		GetComponent<BoxCollider2D>().enabled = true;
+
 
 		yield return new WaitForSeconds(activationdelay);
 
