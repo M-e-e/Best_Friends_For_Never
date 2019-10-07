@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dce6288bb93e7409cb5a22ba7c3402bf, type: 3}
-  m_Name: MindRadiusLight
+  m_Script: {fileID: 11500000, guid: cf41995122cae44cb90a8b027f1dd879, type: 3}
+  m_Name: LightTag 1
   m_EditorClassIdentifier: 
   DeveloperDescription: 
-  value: 2
+  value: "Gro\xDFes_Licht"
