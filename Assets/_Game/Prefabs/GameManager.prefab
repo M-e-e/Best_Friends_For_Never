@@ -34,6 +34,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2945684575214878850}
+  - {fileID: 8445180469194839498}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -179,6 +180,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21952804afb78654fbc3f020e326eab0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &7059834440202754316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8445180469194839498}
+  - component: {fileID: 5163380485495418929}
+  m_Layer: 0
+  m_Name: LightManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8445180469194839498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7059834440202754316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1232958144072125810}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5163380485495418929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7059834440202754316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba834ec22c27ff43952dd652751181d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeSinceTouch: {fileID: 11400000, guid: c8fa7c8d4c8c44a4b9f0f8a26102fd2c, type: 2}
+  CurrentPlayerDistance: {fileID: 11400000, guid: 674df06fa0b942d49871851d43cf713c,
+    type: 2}
+  TimeBeforeDeath: {fileID: 11400000, guid: 6a1586332db6b2f46b8972b986b67d72, type: 2}
+  DistanceBeforeDeath: {fileID: 11400000, guid: cd2b20d0d0bd7e248bccedd20dcf428d,
+    type: 2}
+  MaxRadius: {fileID: 11400000, guid: c4f87805aeb852c44829aef4b59b2fa6, type: 2}
+  MinRadius: {fileID: 11400000, guid: 7fa38d4b4efce604c9e8a93d5c1e6eb8, type: 2}
+  BigLight: {fileID: 11400000, guid: 220049193b6c939469f686acb225ae7f, type: 2}
+  Lights: {fileID: 11400000, guid: 4eda38b05389a514c8365faa9c048523, type: 2}
+  LightRadiusModifier: 0
 --- !u!1001 &7049748456825307160
 PrefabInstance:
   m_ObjectHideFlags: 0
