@@ -1913,6 +1913,21 @@ PrefabInstance:
       propertyPath: m_ApplyToSortingLayers.Array.data[6]
       value: -955572371
       objectReference: {fileID: 0}
+    - target: {fileID: 1137017616737177135, guid: 195835b83616a6f4ab298b9684af5727,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137017616737177135, guid: 195835b83616a6f4ab298b9684af5727,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137017616737177135, guid: 195835b83616a6f4ab298b9684af5727,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 195835b83616a6f4ab298b9684af5727, type: 3}
 --- !u!1 &468910540
@@ -3010,7 +3025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &767940357
 MonoBehaviour:
   m_ObjectHideFlags: 0

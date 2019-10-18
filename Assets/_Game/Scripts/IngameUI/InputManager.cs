@@ -108,7 +108,7 @@ public class InputManager : MonoBehaviour
 			//to b or not to b
 		}
 
-		if (Input.GetKeyDown(KeyCode.JoystickButton7))
+		if (Input.GetKeyDown(KeyCode.JoystickButton7)|| Input.GetKeyDown((KeyCode.Escape)))
 		{
 			currentEventSet[11]?.Raise();
 		}

@@ -1,15 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GateSound : MonoBehaviour
 {
-	public void OpenGate()
+	private void OnDisable()
 	{
 		FindObjectOfType<AudioManager>().Play("OpenDoor");
 	}
 
-	public void CloseGate()
+	private void OnEnable()
 	{
 		FindObjectOfType<AudioManager>().Play("CloseDoor");
 	}
